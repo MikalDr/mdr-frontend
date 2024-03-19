@@ -11,7 +11,7 @@
 
 <div class="mainbox">
     <div>
-        <h1>This is my current projects</h1>
+        <h1>Projects</h1>
         <div class="project-articles">
             {#each projects as p}
                 <div class="articles">
@@ -23,3 +23,9 @@
         </div>
     </div>
 </div>
+
+<style>
+    .navbar-button-active {
+    background-color: white;
+    }
+</style>

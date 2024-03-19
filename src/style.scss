@@ -2,20 +2,22 @@ body {
     min-width: 500px;
     font-family: Helvetica, Sans-Serif;
     margin: 0;
-    background-color: #202431;
+    background-color: #000000;
     color: white;
 }
 
 .mainbox{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
 }
 
 .navbar{
-    background-color: #0E1428;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 0;
 
     ul {
         list-style: none;
@@ -23,9 +25,12 @@ body {
     a {
         color: white;
         text-decoration: none;
+        padding: 1rem;
+        width: auto
     }
     a:hover{
-        color: #FF7F11;
+        color: black;
+        background-color: white;
     }
     .header-logo{
         flex-grow: 2;

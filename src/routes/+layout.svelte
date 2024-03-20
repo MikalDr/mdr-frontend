@@ -32,23 +32,27 @@
 
 <style>
     .mainbox {
-        margin: 2rem;
         width: 100%;
         height: 10rem;
-        left: 0;
-        transition: all 1s;
+        padding: 2rem;
+        transition: all 1s ease-in-out;
     }
 
     a {
         font-size: 1.5rem;
     }
 
+    .main-section {
+        transform: inherit;
+        height: inherit;
+    }
+
     .main-box-gone {
-        transform: scaleY(0);
+        transform: translateY(-10rem);
         height: 0;
-        margin-top: 0;
-        margin-bottom: 0;
         opacity: 0;
+        padding-top:0;
+        padding-bottom: 0;
     }    
 
 </style>

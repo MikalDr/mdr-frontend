@@ -23,9 +23,3 @@
         </div>
     </div>
 </div>
-
-<style>
-    .navbar-button-active {
-    background-color: white;
-    }
-</style>

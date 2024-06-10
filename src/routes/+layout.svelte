@@ -30,12 +30,17 @@
 
 <slot></slot>
 
-<style>
+<style lang="scss">
     .mainbox {
         width: 100%;
         height: 10rem;
-        padding: 2rem;
+        padding: 4rem;
+        //background-color: white;
+        //color:black;
         transition: all 1s ease-in-out;
+        h1 {
+            margin: 0;
+        }
     }
 
     a {
@@ -45,6 +50,7 @@
     .main-section {
         transform: inherit;
         height: inherit;
+        width: 100vw;
     }
 
     .main-box-gone {

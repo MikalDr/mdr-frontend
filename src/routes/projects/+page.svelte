@@ -17,7 +17,7 @@
                 <div class="articles">
                     <h3>{p.title}</h3>
                     <p>{p.content}</p>
-                    <div><a href="">read more</a> <a href="">github</a></div>
+                    <div class="linkbox"><a href="">Read more</a> <a href="">Github</a></div>
                 </div>
             {/each}
         </div>
